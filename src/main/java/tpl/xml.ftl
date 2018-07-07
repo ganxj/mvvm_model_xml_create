@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="api" type="Api" -->
+<#-- @ftlvariable name="api" type="modelCreate/Api" -->
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
