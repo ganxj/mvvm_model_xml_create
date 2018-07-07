@@ -79,7 +79,7 @@ public class Main {
 //
 //// Specify the source where the template files come from. Here I set a
 //// plain directory for it, but non-file-system sources are possible too:
-//        cfg.setDirectoryForTemplateLoading(new File(System.getProperty("user.dir") + "\\tpl"));
+//        cfg.setDirectoryForTemplateLoading(new File(System.getProperty("user.dir") + "\\com.bidanet.create_mvvm_file.tpl"));
 //
 //// Set the preferred charset template files are stored in. UTF-8 is
 //// a good choice in most applications:
