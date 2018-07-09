@@ -6,6 +6,7 @@ import freemarker.template.Template;
 import freemarker.template.TemplateException;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +29,8 @@ public class Main {
         list.add(new ModelApi("Login", "model.login", dir + "model\\login", "activity_login.xml"));
 
         CreateTool.outClassFiles(list, xmlPath);
+//        String path2 = Main.class.getResource("").getPath();
+//        Main.class.getClassLoader().getResourceAsStream(path);
 
     }
 

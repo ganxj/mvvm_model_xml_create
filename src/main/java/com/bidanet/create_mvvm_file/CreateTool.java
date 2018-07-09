@@ -69,9 +69,9 @@ public class CreateTool {
 // Specify the source where the template files come from. Here I set a
 // plain directory for it, but non-file-system sources are possible too:
 
-        String path = Main.class.getClassLoader().getResource("tpl").getPath();
-        System.out.println(path);
-        cfg.setDirectoryForTemplateLoading(new File(path));
+//        String path = Main.class.getClassLoader().getResource("tpl").getPath();
+//        System.out.println(path);
+        cfg.setDirectoryForTemplateLoading(new File(System.getProperty("user.dir") + "\\app\\src\\main\\assets\\tpl"));
 
 // Set the preferred charset template files are stored in. UTF-8 is
 // a good choice in most applications:
