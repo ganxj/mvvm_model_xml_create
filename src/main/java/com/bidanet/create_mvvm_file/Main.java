@@ -25,8 +25,8 @@ public class Main {
 
         String xmlPath = System.getProperty("user.dir") + "\\res\\layout";
         List<ModelApi> list = new ArrayList<>();
-        list.add(new ModelApi("Home", "model.home", dir + "model\\home", "activity_main.xml"));
-        list.add(new ModelApi("Login", "model.login", dir + "model\\login", "activity_login.xml"));
+        list.add(new ModelApi("Home", ".model.home", dir + "model\\home", "activity_main.xml"));
+        list.add(new ModelApi("Login", ".model.login", dir + "model\\login", "activity_login.xml"));
 
         CreateTool.outClassFiles(list, xmlPath);
 //        String path2 = Main.class.getResource("").getPath();
