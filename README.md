@@ -20,7 +20,7 @@ import me.goldze.mvvmhabit.base.BaseViewModel;
 ```
 ```
     dependencies {
-        implementation 'com.github.ganxj:mvvm_model_xml_create:daaeb63a71'
+	     implementation 'com.github.ganxj:mvvm_model_xml_create:v1.0.1'
     }
 ```
 ## 2 复制文件
