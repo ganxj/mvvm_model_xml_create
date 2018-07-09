@@ -3,6 +3,10 @@ android MVVM创建model和xml
 
 # 使用方法
 
+model 默认是使用mvvmhabit框架的，可以更换
+```
+import me.goldze.mvvmhabit.base.BaseViewModel;
+```
 
 [![](https://jitpack.io/v/ganxj/mvvm_model_xml_create.svg)](https://jitpack.io/#ganxj/mvvm_model_xml_create)
 
