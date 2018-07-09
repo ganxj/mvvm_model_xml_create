@@ -12,16 +12,16 @@ import me.goldze.mvvmhabit.base.BaseViewModel;
 
 ## 1	导入依赖
    ``` 
-   allprojects {
-    	    	repositories {
-    	       	   	maven { url 'https://jitpack.io' }
-    	    	}
+    allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
     }
 ```
 ```
-	dependencies {
-	        implementation 'com.github.ganxj:mvvm_model_xml_create:daaeb63a71'
-	}
+    dependencies {
+        implementation 'com.github.ganxj:mvvm_model_xml_create:daaeb63a71'
+    }
 ```
 ## 2 复制文件
 
