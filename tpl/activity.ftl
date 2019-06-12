@@ -12,7 +12,7 @@ import ${api.modelPath};
 
 
 
-@Route(path = "${api.modelName}")
+@Route(path = "/activity/${api.modelName}")
 public class ${api.modelName}Activity extends MyBaseActivity<${api.bindingName} , ${api.modelName}Mp> {
 
     @Override
